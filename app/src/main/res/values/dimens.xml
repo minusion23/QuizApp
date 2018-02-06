@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_distance">8dp</dimen>
+    <dimen name="normal_distance">16dp</dimen>
+    <dimen name="titleTextSize">24sp</dimen>
+    <dimen name="normalTextSize">16sp</dimen>
+    <dimen name="lineSpacing">2dp</dimen>
+    <dimen name="moonHeight">300dp</dimen>
+    <dimen name="large_Text_Size">32sp</dimen>
+</resources>

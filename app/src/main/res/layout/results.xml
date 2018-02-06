@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <TextView
+        android:id="@+id/quiz_results"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/small_distance"
+        android:layout_marginLeft="@dimen/normal_distance"
+        android:layout_marginRight="@dimen/normal_distance"
+        android:layout_marginTop="@dimen/small_distance"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/lineSpacing"
+        android:text=""
+        android:textSize="@dimen/large_Text_Size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight="8">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_distance"
+            android:layout_weight="1"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:onClick="retry"
+            android:text="@string/retry_Button"
+            android:textColor="@color/buttonTextColor" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_distance"
+            android:layout_weight="1"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:onClick="send_to_a_friend"
+            android:text="@string/send_To_A_Friend_Button"
+            android:textColor="@color/buttonTextColor"
+            tools:ignore="OnClick" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

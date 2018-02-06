@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#fffffe</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#fffffe</item>
+
+    </style>
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">#fffffe</item>
+        <item name="android:textColorSecondary">#fffffe</item>
+    </style>
+
+    <style name="radioButtonStyle" parent="Base.Theme.AppCompat">
+    <item name="colorAccent">#fffffe</item>
+    <item name="android:textColorSecondary">#fffffe</item>
+    </style>
+
+
+
+</resources>
