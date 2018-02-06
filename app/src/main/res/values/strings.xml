@@ -44,4 +44,7 @@
     <string name="question1answer3">Increasing</string>
     <string name="retry_Button">retry</string>
     <string name="send_To_A_Friend_Button">send to a friend</string>
+    <string name="scoretextPart1">You have scored</string>
+    <string name="scoreMessagepart2">points. Nicely done</string>
+    <string name="scoreMessagepart3">! If you want you can retry the test or send your score to a friend</string>
 </resources>
