@@ -83,6 +83,7 @@
                 android:textColor="@color/answerColor"
                 android:textSize="@dimen/normalTextSize"
                 android:theme="@style/radioButtonStyle" />
+
         </RadioGroup>
 
         <TextView
@@ -144,6 +145,7 @@
                 android:text="@string/question3answer2"
                 android:textColor="@color/answerColor"
                 android:theme="@style/radioButtonStyle" />
+
         </RadioGroup>
 
         <TextView
@@ -189,6 +191,7 @@
                 android:text="@string/question4answer3"
                 android:textColor="@color/answerColor"
                 android:theme="@style/radioButtonStyle" />
+
         </RadioGroup>
 
         <TextView
@@ -242,6 +245,7 @@
                 android:text="@string/question5answer4"
                 android:textColor="@color/answerColor"
                 android:theme="@style/radioButtonStyle" />
+
         </RadioGroup>
 
         <TextView
@@ -312,6 +316,7 @@
             android:contentDescription="@string/moon1"
             android:cropToPadding="true"
             android:padding="@dimen/small_distance"
+            android:layout_gravity="center"
             android:src="@drawable/callisto" />
 
         <RadioButton
@@ -327,6 +332,7 @@
             android:layout_height="@dimen/moonHeight"
             android:contentDescription="@string/moon2"
             android:cropToPadding="true"
+            android:layout_gravity="center"
             android:padding="@dimen/small_distance"
             android:src="@drawable/ganymede_by_noaa" />
 
@@ -343,6 +349,7 @@
             android:contentDescription="@string/moon3"
             android:cropToPadding="true"
             android:padding="@dimen/small_distance"
+            android:layout_gravity="center"
             android:src="@drawable/mimas_cassini"
             android:theme="@style/radioButtonStyle" />
 
@@ -428,6 +435,7 @@
                 android:text="@string/question9answer4"
                 android:textColor="@color/answerColor"
                 android:theme="@style/radioButtonStyle" />
+
         </RadioGroup>
 
         <TextView
@@ -481,6 +489,7 @@
                 android:text="@string/question10answer4"
                 android:textColor="@color/answerColor"
                 android:theme="@style/radioButtonStyle" />
+
         </RadioGroup>
 
         <LinearLayout
@@ -489,7 +498,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/small_distance"
             android:orientation="horizontal">
-
 
             <TextView
                 android:layout_width="wrap_content"
@@ -507,15 +515,13 @@
                 android:text="@string/submitButton"
                 android:textColor="@color/buttonTextColor" />
 
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
 
-
         </LinearLayout>
 
-
     </LinearLayout>
+
 </ScrollView>

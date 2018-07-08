@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background3"
     android:orientation="vertical"
-    tools:context="com.example.android.quizapp.MainActivity">
+    tools:context="com.example.android.quizapp.results">
 
     <TextView
         android:id="@+id/quiz_results"
@@ -39,7 +39,6 @@
             android:text="@string/retry_Button"
             android:textColor="@color/buttonTextColor" />
 
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,9 +51,7 @@
             android:textColor="@color/buttonTextColor"
             tools:ignore="OnClick" />
 
-
     </LinearLayout>
-
 
 </LinearLayout>
 
